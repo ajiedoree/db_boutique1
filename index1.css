@@ -1,0 +1,107 @@
+body {
+    background-color: #000000a4;
+}
+
+.header  {
+    margin-left: 200px;
+    text-align: right;
+}
+
+.login {
+  margin-left: 480px;
+  background-image: url("foto 2.jpg");
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0, 5);
+  box-shadow: 0 0 10px 5px rgb(245, 243, 243);
+  padding-bottom: 0px;
+  width: fit-content;
+  border-radius: 10%;
+}
+
+.login {
+  border-radius: 10px;
+  width: 400px;
+  padding-top: 15%;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-header {
+  padding-top: 20px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: transparent;
+  padding: 10px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  padding: 10px;
+}
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input [type="email"] .login input [type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #975c8d;
+}
+
+.login input [type="email"]:focus,
+.login input [type="password"]:focus {
+  border-color: #888;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+.login input [type="submit"] {
+  background: rgb(184, 172, 172);
+  color: #413f3f;
+  border-color: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 160px;
+}
+
+a,
+.login input [type="submit"]:hover {
+  background: #d8d8d8;
+  border-radius: 8px;
+}
+
+a,
+.login input [type="submit"]:focus {
+  border-color: #05a;
+}

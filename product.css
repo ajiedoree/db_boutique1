@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+.all {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 39%;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.nav {
+  background-image: url("home 4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0%;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.nav h2 {
+  margin-left: 40%;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-style: oblique;
+  font-size: 35px;
+  letter-spacing: 15px;
+  text-shadow: 1px 1px 1px grey;
+  padding-bottom: 0px;
+}
+
+.nav h5 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 15px;
+}
+
+.nav ul {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.nav ul li {
+  float: left;
+  padding: 3px;
+}
+
+.nav ul li a {
+  margin-left: 45px;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  text-align: center;
+}
+
+.table1 {
+  margin-top: 1%;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+}
+
+.table1 h2 {
+  font-family: serif;
+  color: rgb(225, 235, 243);
+  padding-bottom: 20px;
+}
+
+table {
+  border: 8px;
+  color: aliceblue;
+  box-shadow: 2px 2px 2px rgb(41, 43, 43);
+}
+
+table th {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+table th,
+td {
+  padding: 20px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+table td {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 1px 1px 3px rgb(58, 58, 58);
+  color: rgb(19, 15, 15);
+  background-color: rgb(197, 197, 197);
+  border-color: black;
+  border: 3%;
+}
+
+
+
+
